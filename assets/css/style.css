@@ -1,0 +1,205 @@
+body{
+    font-family: 'cabin';
+}
+
+header{
+    margin-top: 6rem;
+}
+
+a.nav-link{
+    font-size: 16px;
+    color: #ffffff!important;
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    }
+
+
+
+.lobster{
+    font-family: 'lobster';
+}
+
+hr {
+    height: 1.3px;
+    background-color: black;
+    }
+
+h1{
+    font-size: 1.56rem;
+}
+
+h3{
+    font-size: 1.875rem;
+    line-height: 2.4rem;
+    color: #373A3C; 
+}
+
+h4{
+    font-size: 1.563rem;
+    color: #373A3C;
+}
+
+.historia{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.04rem;
+    color: #373A3C;
+}
+
+
+.pasos{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.04rem;
+    color: #373A3C;
+}
+
+/*poner mediaquery*/
+
+.carousel img{
+    width: 23%;
+    display: inline-block;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-indicators li{
+    width: 1rem;
+     height: 1rem;
+     border-radius: 50%;
+    }
+    
+@media (max-width:991px){
+
+    .carrusel{
+        display: none;
+    }
+}
+
+@media (min-width:992px){
+
+    .bloque2{
+        text-align: left;
+    }
+}
+
+@media (min-width:1200px){
+
+.bloque2{
+    text-align: left;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+
+
+}
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family:'Lucida Sans';
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+
+body{
+    font-family:'Indie Flower'}
+    .titulo{
+        border:0;
+        display:block;
+        font-size:4em;
+        margin-top:1.5em;
+        text-align:center;
+        color:#0073ae}
+
+    .u-btn{
+        background:#00b5cb;
+        border:0;
+        color:#fff;
+        font-size:30px;
+        height:53px;
+        margin-top:20px;
+       -webkit-transition:0.3s;
+       -moz-transition:0.3s;
+       -o-transition:0.3s;
+       -ms-transition:0.3s;
+       transition:0.3s;
+       width:125px;}
+    .u-btn:hover{
+        background:#0073ae}
+    .u-error{
+        border-bottom:dashed 1px #f00 !important}
+    .u-db{
+        display:block !important}
+    .u-requerido:after{
+        content:'*';color:#fc391d;
+        display:inline-block}
+    .Formulario
+     {display:block;
+        height:auto;margin-top:2em;
+        text-align:center;}
+    .Formulario-celda{
+        display:block;margin:2em 0;}
+    .Formulario-celda-input{
+        border:0;
+        border-bottom:dashed 1px #454545;
+        color:#ffffff;
+        height:30px;
+        padding:5px;
+        outline:none}
+    .Formulario-celda-label{
+        color:#00b5cb;
+        font-size:20px;
+        text-align:left;
+        width:100px}
+    .Formulario-celda-select{
+        outline:none;
+        border:0}
+    .Formulario-celda-input,
+    .Formulario-celda-label{
+        display:inline-block}
+        #mensaje_Enviado{
+            display:none;
+            width:500px;
+            margin:0 
+        auto;text-align:center;
+    }#mensaje_Enviado h1{color:#fc391d}
+    #mensaje_Enviado h2{color:#0073ae}
+    #mensaje_Enviado span{display:block}
